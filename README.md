@@ -228,11 +228,6 @@ Reasons:
 - Suitable for local execution
 
 
-Embedding dimension:
-
-```
-384
-```
 
 ---
 
@@ -478,4 +473,4 @@ This project demonstrates a complete agentic RAG customer support assistant with
 - REST API exposure
 - Frontend interaction
 
-The architecture is designed to be lightweight, explainable, and easily extendable toward a production support system.
+Architecture is designed to be lightweight, explainable and easily extendable toward a production support system.
