@@ -1,0 +1,10 @@
+{
+    "scripts": {
+    "backend": "uvicorn src.app:app --reload --host 0.0.0.0 --port 8000",
+    "frontend": "cd Frontend && npm install && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
